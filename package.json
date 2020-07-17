@@ -1,0 +1,51 @@
+{
+  "name": "mymillions",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Solidity contracts of MyMillions ecosystem",
+  "main": "y",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "compile": "truffle compile",
+    "migrate": "truffle migrate",
+    "migrate-dev": "truffle migrate --network development",
+    "test": "truffle compile; truffle migrate --network development; truffle test",
+    "rpc": "scripts/rpc.sh"
+  },
+  "dependencies": {
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "chai-bignumber": "^2.0.2",
+    "truffle": "^4.1.14",
+    "ganache-cli": "^6.1.8"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "chai-bignumber": "^2.0.2",
+    "truffle": "^4.1.14",
+    "ganache-cli": "^6.1.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MyMillionsETH/MyMillions.git"
+  },
+  "keywords": [
+    "solidity",
+    "truffle"
+  ],
+  "author": "ShagaleevAlexey",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MyMillionsETH/MyMillions/issues"
+  },
+  "homepage": "https://github.com/MyMillionsETH/MyMillions#readme"
+}
